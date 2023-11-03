@@ -1,4 +1,4 @@
-# EHD-enhanced-singlePhase-HeatTransfer
+# EHD-HeatTransfer-singlePhase
 
 [![Author](https://img.shields.io/badge/Author-green.svg)](https://sites.google.com/view/zehtabiyan/home)
 [![Paper](https://img.shields.io/badge/Paper-Access-red.svg)](https://doi.org/10.1016/j.elstat.2019.103415)
