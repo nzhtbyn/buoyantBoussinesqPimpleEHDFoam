@@ -5,16 +5,13 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 
-The governing equations, comprising continuity, momentum, energy, and electrical equations, have been numerically solved by using a solver in the OpenFOAM version 4.1. The developed solver is able to handle the coupled equations.
+An OpenFOAM solver to model enhancement of mixed convection heat transfer due to electrohydrodynamic (EHD) flow, developed by [Navid Zehtabiyan-Rezaie](https://sites.google.com/view/zehtabiyan/home).
 
 # Description
 The governing equations, comprising continuity, momentum, energy, and electrical equations, have been numerically solved by using a solver in the OpenFOAM version 4.1. The developed solver is able to handle the coupled equations. The Euler and Gauss linear discretization schemes were implemented for the time derivatives and gradient terms, respectively. The Gauss linear corrected scheme was used for the Laplacian terms. For the discretization of the convective and diffusive terms of the momentum equation, the bounded Gauss upwind and Gauss linear schemes were used. The divergence term of the space charge density conservation equation was discretized by using the Gauss upwind scheme. The pressure-velocity coupling was done through the PISO-semi-Implicit Method for Pressure-Linked Equations (PIMPLE) algorithm. The solver used an adjustable time step-controlling method to keep the Courant number below a specified value. For a comprehensive understanding of this solver, see this [publication](https://doi.org/10.1016/j.elstat.2019.103415).
 
 # Target platform
 The code has been rigorously tested and verified to be fully compatible with OpenFOAM v-4.1, ensuring its smooth integration and reliable performance with this specific release.
-
-<!-- # Author
-[Navid Zehtabiyan-Rezaie](https://sites.google.com/view/zehtabiyan/home) -->
 
 # How to set the model
 1- Download the source code using the following command:
