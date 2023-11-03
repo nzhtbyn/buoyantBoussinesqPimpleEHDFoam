@@ -46,14 +46,13 @@ The performance of the solver has been further assessed through extensive testin
 Please, cite this library as:
 ```
 @article{ZEHTABIYANREZAIE_ehdHeat_JoE_2020,
+author = {Navid Zehtabiyan-Rezaie and Majid Saffar-Avval and Kazimierz Adamiak},
 title = {Forced convection heat transfer enhancement using a coaxial wire-tube corona system},
 journal = {Journal of Electrostatics},
 volume = {103},
 pages = {103415},
 year = {2020},
 issn = {0304-3886},
-doi = {https://doi.org/10.1016/j.elstat.2019.103415},
-url = {https://www.sciencedirect.com/science/article/pii/S0304388619302554},
-author = {Navid Zehtabiyan-Rezaie and Majid Saffar-Avval and Kazimierz Adamiak}
+doi = {https://doi.org/10.1016/j.elstat.2019.103415}
 }
 ```
