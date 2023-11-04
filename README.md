@@ -16,15 +16,13 @@ The code has been rigorously tested and verified to be fully compatible with Ope
 # How to set the model
 1- Download the source code using the following command:
 
-  `git clone https://github.com/nzhtbyn/Extended-kEpsilon-WindFarmSimulation.git`
+  `git clone https://github.com/nzhtbyn/EHD-mixedHeatTransfer-singlePhase.git`
 
-2- To enable the momentum-source calculator of the actuator-disk model without rotation (ADM-NR) in OpenFOAM to calculate the source terms based on the disk-averaged velocity, follow these instructions:
-
-$\bullet$ Go to your work directory via the following command:
+2- Go to your work directory via the following command:
   
 `cd $WM_PROJECT_USER_DIR`
        
-$\bullet$ Copy the folder _ADM_NR_diskBased_ to your work directory, and compile the new library with the following command
+3- Copy the folder to your work directory, and compile the new solver with the following command
   
  `wmake`
  
