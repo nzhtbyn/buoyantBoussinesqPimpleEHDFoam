@@ -13,22 +13,27 @@ The developed solver handles governing equations in mixed convection heat transf
 # Target platform
 The code has been rigorously tested and verified to be fully compatible with OpenFOAM v-4.1, ensuring its smooth integration and reliable performance with this specific release.
 
-# How to set the model
+# How to compile and use the solver
 1- Download the source code using the following command:
 
   `git clone https://github.com/nzhtbyn/EHD-mixedHeatTransfer-singlePhase.git`
 
-2- Go to your work directory via the following command:
+2- To compile the solver, go to your work directory via the following command:
   
 `cd $WM_PROJECT_USER_DIR`
        
-3- Copy the folder to your work directory, and compile the new solver with the following command
+Copy the folder to your work directory, and compile the new solver with the following command
   
  `wmake`
  
-3- Copy the folder _testCase_ to your run directory. To initiate the simulation, adjust number of _numberOfSubdomains_ in _system/decomposeParDict_, and execute the following command:
+3- Copy the folder _validationCase_ to your run directory. To initiate the simulation, and execute the following command:
 
 `.//Allrun`
+
+# Charge density boundary condition
+
+One of the problems in solving the conservation of space charge density is the application of a boundary condition on the emitting electrode. Since all essential ionization processes next to the emitting electrode are neglected, strict boundary conditions for the charge density cannot be formulated. The problem can be solved by using the Kaptzov hypothesis. He suggested that if the corona discharge occurs at some point of the emitting electrode and charge is injected, the electric field at this point remains at the value it takes at the corona onset. According to the above-mentioned explanations, a common method is
+used in numerical studies to properly estimate the charge density boundary condition on the emitting electrode. First,6 the charge density at the wire is guessed and iterated until the electric field is sufficiently close to Peek’s law, which specifies the onset electric field on the emitting electrode. For cylindrical and spherical geometries the following relations are used, respectively
 
 # Evaluation of the extended model's performance
 The local heat transfer coefficient over a plate with a heat flux of 187 $\text{W}/\text{m}^2$ is compared with the experimental results of [Owsenek and Seyed-Yagoobi](https://doi.org/10.1115/1.2824148). Three different voltages are applied to the wire placed at a distance of 2 cm above the heated plate. Results obtained from the developed solver show a very good agreement with the experimental data. 
