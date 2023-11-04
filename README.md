@@ -1,4 +1,4 @@
-# EHD-mixedHeatTransfer-singlePhase
+# buoyantBoussinesqPimpleEHDFoam
 
 [![Author](https://img.shields.io/badge/Author-green.svg)](https://sites.google.com/view/zehtabiyan/home)
 [![Paper](https://img.shields.io/badge/Paper-Access-red.svg)](https://doi.org/10.1016/j.elstat.2019.103415)
@@ -16,7 +16,7 @@ The code has been rigorously tested and verified to be fully compatible with Ope
 # How to compile and use the solver
 1- Download the source code using the following command:
 
-  `git clone https://github.com/nzhtbyn/EHD-mixedHeatTransfer-singlePhase.git`
+  `git clone https://github.com/nzhtbyn/buoyantBoussinesqPimpleEHDFoam.git`
 
 2- To compile the solver, go to your work directory via the following command:
   
