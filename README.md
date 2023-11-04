@@ -30,7 +30,7 @@ Copy the folder to your work directory, and compile the new solver with the foll
 
 `.//Allrun`
 
-# Charge density boundary condition
+## Charge density boundary condition
 
 One of the problems in solving the conservation of space charge density is the application of a boundary condition on the emitting electrode. Since all essential ionization processes next to the emitting electrode are neglected, strict boundary conditions for the charge density cannot be formulated. The problem can be solved by using the Kaptzov hypothesis. He suggested that if the corona discharge occurs at some point of the emitting electrode and charge is injected, the electric field at this point remains at the value it takes at the corona onset. According to the above-mentioned explanations, a common method is
 used in numerical studies to properly estimate the charge density boundary condition on the emitting electrode. First,6 the charge density at the wire is guessed and iterated until the electric field is sufficiently close to Peek’s law, which specifies the onset electric field on the emitting electrode. For cylindrical and spherical geometries the following relations are used, respectively
