@@ -1,0 +1,3 @@
+buoyantBoussinesqPimpleEHDFoam.C
+
+EXE = $(FOAM_APPBIN)/buoyantBoussinesqPimpleEHDFoam
