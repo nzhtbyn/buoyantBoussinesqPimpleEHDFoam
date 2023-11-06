@@ -26,7 +26,7 @@ Copy the folder to your work directory, and compile the new solver with the foll
   
  `wmake`
  
-3- Copy the folder _validationCase_ to your run directory. To initiate the simulation, and execute the following command:
+3- Copy the folder _validationCase_ to your run directory. To initiate the simulation, execute the following command:
 
 `.//Allrun`
 
