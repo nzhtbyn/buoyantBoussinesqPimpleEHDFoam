@@ -38,7 +38,7 @@ used in numerical studies to properly estimate the charge density boundary condi
 # Validation
 The local heat transfer coefficient over a plate with a heat flux of 187 $\text{W}/\text{m}^2$ is compared with the experimental results of [Owsenek and Seyed-Yagoobi](https://doi.org/10.1115/1.2824148). Three different voltages are applied to the wire placed at a distance of 2 cm above the heated plate. Results obtained from the developed solver show a very good agreement with the experimental data. 
 
-  <img src="https://github.com/nzhtbyn/FiguresForCodes/blob/main/EHD-enhanced-HeatTransfer/ehdHeat_JoS_2020.jpg" width="400" height="400" alt="Local heat transfer coefficient with a single wire electrode placed 2 cm above the plate electrode for a heat flux of 187 W/m2; a comparison between experimental results of Owsenek and Seyed-Yagoobi [31] and results of the present solver.">
+  <img src="https://github.com/nzhtbyn/buoyantBoussinesqPimpleEHDFoam/blob/main/validationCase/ehdHeat_JoS_2020.jpg" width="400" height="400" alt="Local heat transfer coefficient with a single wire electrode placed 2 cm above the plate electrode for a heat flux of 187 W/m2; a comparison between experimental results of Owsenek and Seyed-Yagoobi [31] and results of the present solver.">
 
 The performance of the solver has been further assessed through extensive testing against experimental data in the study of [Zehtabiyan-Rezaie et al. (2020)](https://doi.org/10.1016/j.elstat.2019.103415).
 
